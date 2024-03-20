@@ -70,6 +70,22 @@
                     <a href="" class="btn">Read More</a>
                 </div>
             </div>
+            <div class="card">
+                <video src="Videos/DarkEvo New Update leaks.mp4" autoplay muted loop></video>
+                <div class="card-content">   
+                    <h3>Cafe Project</h3>
+                    <p>Making a cafe in order to get good grades</p>
+                    <a href="" class="btn">Read More</a> 
+                </div>
+            </div>
+        </div>
+        <div class="certificates-conatiner">
+            <div class="title-certificates">
+                <h3>CERTIFICATES</h3>
+                <div class="certificate-images">
+                    <img src="Images/SU_GameCompetition.png" alt="">
+                </div>
+            </div>
         </div>
         <div class="projects">
             <div class="containerprojects">
@@ -119,7 +135,7 @@
     <script>
         ScrollReveal(
         {
-            reset:true, 
+            reset:false, 
             distance: '60px',
             duration:2000,
             delay:1600
@@ -127,11 +143,12 @@
         ScrollReveal().reveal('.about h1', {delay:10, origin:'left', interval:150});
         ScrollReveal().reveal('.projects .containerprojects h3', {delay:10, origin:'left'});
         ScrollReveal().reveal('.skills .card .card-content h3, .skills. card. card-content p', {delay:25, origin:'left'});
-        ScrollReveal().reveal('.projects .containerprojects .contentprojects .info h4', {delay:75, origin:'left'});
+        ScrollReveal().reveal('.projects .containerprojects .contentprojects .info h4, .title-certificates h3', {delay:75, origin:'left'});
         ScrollReveal().reveal('.projects .containerprojects .contentprojects .info p span', {delay:55, origin:'left', interval:150});
 
 
         ScrollReveal().reveal('.skills .card', {delay:300, origin:'bottom', interval:100});
+        ScrollReveal().reveal('.title-certificates .certificate-images', {delay:300, origin:'bottom'});
         ScrollReveal().reveal('.footercontainer button', {delay:25});
         ScrollReveal().reveal('.footercontainer .footernav li, .footercontainer .socialicons a, .footerbottom p span', {delay:25, origin:'bottom', interval:100});
         ScrollReveal().reveal('.sec-02 .image, .sec-03 .image', {delay:25, origin:'top'});
