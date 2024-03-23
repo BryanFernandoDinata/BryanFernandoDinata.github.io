@@ -181,7 +181,6 @@ section p
 .footernav a
 {
     text-decoration: none;
-    color: #fff;
 }
 .footernav
 {
@@ -189,9 +188,9 @@ section p
 }
 .footernav ul li a
 {
-    color: white;
+    color: rgb(116, 130, 255);
     margin: 20px;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 1.3em;
     opacity: 0.7;
     transition: 0.5s;
