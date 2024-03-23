@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
     scroll-behavior: smooth;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 button
 {
@@ -94,12 +97,12 @@ body
     z-index: 1;
     display: block;
     position: relative;
-    width: 30%;
+    width: 45%;
     height: 100%;
     padding-top: 8%;
     margin-left: auto;
     margin-right: auto;
-
+    transform:scaleX(-1);
     filter: grayscale(1);
     transition: .3s linear;
 }
